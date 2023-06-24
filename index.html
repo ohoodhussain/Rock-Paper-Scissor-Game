@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Oswald:wght@300;400;500&family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <section id="startPage" class="bg-green">
+        <h1>
+            Rock Paper Scissor game
+        </h1>
+        <div class="flex">
+            <img src="rock paper game img/1.png" alt="paper character">
+            <img src="rock paper game img/2.png" alt="Scissor character">
+            <img src="rock paper game img/3.png" alt="rock character">
+        </div>
+        <button id="startPlaytButton" class="startButton">Start</button>
+    </section>
+    <section id="playingPage" class="bg-green">
+        <h2>
+            Rock Paper Scissor 
+        </h2>
+        <div id="result"></div>
+        <div class="flex">
+            <button  id="Rock" class="character" onclick="playerSelectionChoice('rock')"><img class="character" src="rock paper game img/paper.png" alt="paper"></button>
+            <button id="Paper" class="character" onclick="playerSelectionChoice('paper')"><img class="character" src="rock paper game img/sc.png" alt="Scissor"></button>
+            <button id="Scissor" class="character" onclick="playerSelectionChoice('Scissor')"><img class="character" src="rock paper game img/rock.png" alt="rock"></button>
+        </div>
+        <h3>
+            CHOOSE your weapon!
+        </h3>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>

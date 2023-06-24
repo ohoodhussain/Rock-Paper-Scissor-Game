@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+}
+
+h2,
+h3,
+h1 {
+    font-family: 'Lilita One', cursive;
+    color: black;
+}
+.bg-green{
+    background-color: #B3C1B1;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+}
+
+img{
+    width: 50%;
+}
+.flex{
+    display: flex;
+    margin: 5px;
+}
+
+.startButton{
+    background-color: #CDA06B;
+    padding: 20px 50px;
+    color:gray ;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Lilita One', cursive;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.character{
+    display: block;
+    background-color: transparent;
+    border: none;
+    
+}
+.flex button{
+    display: flex;
+    justify-content: center;
+} 
+
+#playingPage{
+    margin-top: 5px;
+    display: none;
+}
